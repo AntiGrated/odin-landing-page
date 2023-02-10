@@ -1,0 +1,145 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+.my-logo {
+    border-radius: 90px;
+    margin: 10px 10px 10px 10px;
+    max-height: 90px;
+}
+nav {
+    width: 50%;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+nav > ul > li {
+    display: block;
+    color: #f9faf8;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.anti-odin {
+    color: white;
+    cursor: pointer;
+    transition: 0.15s;
+    border-radius: 3px;
+    padding: 5px;
+}
+.anti-odin:hover {
+    background-color: #f9faf8;
+    color: #1f2937;
+}
+.basic-information {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #f9faf8;
+    background-color: #1f2937;
+    font-size: 28px;
+    padding-bottom: 100px;
+}
+.anti {
+    font-size: 48px;
+    font-weight: bold;
+}
+.placeh {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    margin-left: -200px;
+}
+@media (max-width: 767px) {
+    .placeh {
+      display: none;
+    }
+  }
+.tools-text {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    max-height: 200px;
+    margin-bottom: 50px;
+}
+.projects > .tools > img {
+    /height: 200px;
+    /margin-top: 50px;
+}
+.download {
+    font-size: 30px;
+}
+.resume {
+    color: white;
+}
+.icons {
+    max-width: 120px;
+    max-height: 120px;
+}
+.pquotes {
+    background-color: #e5e7eb;
+    text-align: center;
+    display: block;
+    font-size: 36px;
+    padding: 120px 0px;
+    color: #1f2937;
+}
+@media (max-width: 757px) {
+    .pquotes {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+}
+.dr {
+    text-align: right;
+}
+.closing {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(28, 127, 219);
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px 0;
+    color: #e5e7eb;
+}
+button {
+    cursor: pointer;
+    height: 40px;
+    background-color: rgb(28, 127, 219);
+    border: 2px solid #ffffff;
+    margin-left: 40px;
+    border-radius: 5px;
+    width: 90px;
+    color: #e5e7eb;
+    transition: 0.15s;
+}
+button:hover {
+    color: rgb(28, 127, 219);
+    background-color: #e5e7eb;
+}
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    margin-top: 180px
+}
